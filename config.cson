@@ -1,0 +1,56 @@
+"*":
+  "exception-reporting":
+    userId: "9739ac34-5ff2-955c-6fed-0eed56a14349"
+  welcome:
+    showOnStartup: false
+  core:
+    themes: [
+      "atom-soda-dark-ui"
+      "monokai"
+    ]
+    disabledPackages: [
+      "japanese-wrap"
+    ]
+  editor:
+    invisibles: {}
+    fontFamily: "Migu 1M Regular"
+    showInvisibles: true
+    showIndentGuide: true
+    fontSize: 10
+  "custom-title":
+    template: "<%= projectName %> - <%= filePath %>"
+  minimap:
+    plugins:
+      bookmarks: true
+      "git-diff": true
+      "minimap-autohide": true
+      "highlight-selected": true
+      pigments: true
+      "minimap-hide": true
+  "atom-typescript": {}
+  linter: {}
+  "syntax-settings":
+    source:
+      go:
+        editorSettings: {}
+      python:
+        editorSettings: {}
+  "japanese-wrap":
+    characterWidth: {}
+  "tree-view":
+    hideVcsIgnoredFiles: true
+  "merge-conflicts":
+    gitPath: "/usr/bin/git"
+  "symbols-tree-view":
+    autoToggle: true
+    autoHide: true
+  "git-history": {}
+"syntax-settings":
+  source:
+    ruby:
+      editorSettings:
+        tabLength: 2
+      editorViewSettings:
+        showInvisibles: true
+        softWrap: false
+        showIndentGuide: false
